@@ -1,0 +1,30 @@
+.env
+node_modules
+tmp
+dist
+
+#Compiled object files, Static and dynamic libs (Shared objects)
+*.o
+*.a
+*.so
+
+#Folders
+_obj
+_test
+vendor/
+.vscode/
+
+#Compiled binary files
+*.exe
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#Go specific files
+#Compiled binary for packages and commands
+/bin/
+
+#output of the go coverage tool
+*.out
